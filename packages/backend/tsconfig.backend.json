@@ -1,0 +1,9 @@
+{
+    "extends": "../../tsconfig.json",
+    "include": ["./**/*.ts"],
+    "outDir": "../../dist/backend",
+    "compilerOptions": {
+      "composite": true,
+    },
+    "references": [{"path": "../model/tsconfig.model.json"}]
+}

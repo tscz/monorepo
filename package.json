@@ -1,0 +1,39 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "A blueprint for a monorepo",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 18.4"
+  },
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "tsc --build",
+    "watch": "tsc --build --watch",
+    "start:backend": "npm run start -w backend",
+    "start:frontend": "npm run start -w frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tscz/monorepo.git"
+  },
+  "author": "tscz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tscz/monorepo/issues"
+  },
+  "homepage": "https://github.com/tscz/monorepo#readme",
+  "workspaces": [
+    "packages/model",
+    "packages/lib",
+    "packages/backend",
+    "packages/frontend"
+  ],
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.2",
+    "ts-node": "^10.9.1"
+  }
+}

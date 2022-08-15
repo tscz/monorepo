@@ -1,0 +1,11 @@
+{
+  "name": "model",
+  "version": "1.0.0",
+  "description": "The main domain shared between frontend and backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tscz",
+  "license": "MIT"
+}

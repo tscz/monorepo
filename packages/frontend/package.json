@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "The frontend application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "tscz",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^8.2.2",
+    "inquirer": "^8.2.4",
+    "model": "^1.0.0"
+  },
+  "type": "module"
+}

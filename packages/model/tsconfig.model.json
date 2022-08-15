@@ -1,0 +1,9 @@
+{
+    "extends": "../../tsconfig.json",
+    "include": ["./**/*.ts"],
+    "outDir": "../../dist/model",
+    "rootDir": ".",
+    "compilerOptions": {
+      "composite": true,
+    },
+}
